@@ -11,5 +11,5 @@
 </div>
 
 
-![alt text](final.gif)
+<!-- ![alt text](final.gif) -->
 
