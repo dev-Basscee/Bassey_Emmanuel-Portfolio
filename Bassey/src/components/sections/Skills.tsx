@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { FaCode, FaProjectDiagram, FaTools, FaUserFriends } from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiPython, SiReact, SiNodedotjs, SiExpress, SiFlask, SiGit, SiDocker, SiVercel, SiDjango, SiShell, SiC, SiSolidity , SiRust ,SiUpstash,} from 'react-icons/si';
+import { SiJavascript, SiTypescript, SiPython, SiReact, SiNodedotjs, SiExpress, SiFlask, SiGit, SiDocker, SiVercel, SiDjango, SiShell, SiC, SiSolidity , SiRust ,SiUpstash} from 'react-icons/si';
 
 
 
@@ -43,6 +43,7 @@ const skillIcons: any = {
   Bash: <SiShell className="text-green-400" />,
   C: <SiC className="text-green-400" />,
   Solidity: <SiSolidity className="text-green-400" />,
+  Upstash: <SiUpstash className="text-green-400" />,
   
 };
 
