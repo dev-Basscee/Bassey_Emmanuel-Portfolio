@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { FaCode, FaProjectDiagram, FaTools, FaUserFriends } from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiPython, SiReact, SiNodedotjs, SiExpress, SiFlask, SiGit, SiDocker, SiVercel, SiDjango, SiShell, SiC, SiSolidity } from 'react-icons/si';
+import { SiJavascript, SiTypescript, SiPython, SiReact, SiNodedotjs, SiExpress, SiFlask, SiGit, SiDocker, SiVercel, SiDjango, SiShell, SiC, SiSolidity , SiRust ,SiUpstash,} from 'react-icons/si';
 
 
 
@@ -8,7 +8,7 @@ const skillsByCategory = [
   {
     category: 'Languages',
     icon: <FaCode className="text-green-400" />,
-    skills: ['JavaScript', 'TypeScript', 'Python', 'C', 'Solidity'],
+    skills: ['JavaScript', 'TypeScript', 'Python', 'C', 'Solidity', 'Rust', 'Motoko', 'Move']
   },
   {
     category: 'Frameworks',
@@ -18,7 +18,7 @@ const skillsByCategory = [
   {
     category: 'Tools',
     icon: <FaTools className="text-green-400" />,
-    skills: ['Git', 'Docker', 'Vercel', 'Bash'],
+    skills: ['Git', 'Docker', 'Vercel', 'Bash', 'Upstash'],
   },
   {
     category: 'Soft Skills',
@@ -31,6 +31,7 @@ const skillIcons: any = {
   JavaScript: <SiJavascript className="text-green-400" />,
   TypeScript: <SiTypescript className="text-green-400" />,
   Python: <SiPython className="text-green-400" />,
+  Rust: <SiRust className="text-green-400" />,
   React: <SiReact className="text-green-400" />,
   'Node.js': <SiNodedotjs className="text-green-400" />,
   'Express.js': <SiExpress className="text-green-400" />,
@@ -42,6 +43,7 @@ const skillIcons: any = {
   Bash: <SiShell className="text-green-400" />,
   C: <SiC className="text-green-400" />,
   Solidity: <SiSolidity className="text-green-400" />,
+  
 };
 
 const Skills = () => {
