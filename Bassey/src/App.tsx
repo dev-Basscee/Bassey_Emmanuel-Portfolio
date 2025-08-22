@@ -47,7 +47,7 @@ function App() {
 					"@context": "https://schema.org",
 					"@type": "Person",
 					name: "Bassey Emmanuel",
-					// url: "https://wisemanumanah.vercel.app",
+					 url: "bassey-emmanuel-alpha.vercel.app",
 					sameAs: [
 						"https://linkedin.com/in/basseyemmanuel",
 						"https://github.com/dev_Basscee",
